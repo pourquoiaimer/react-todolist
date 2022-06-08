@@ -9,7 +9,8 @@ import { AllData } from "./js/main"
 function App() {
   const [isLogin, setIsLogin] = useState(false)
   const [userInfo, setUserInfo] = useState({ name: "" })
-
+  console.log('now');
+  
   function goLogin_out() {
     if (isLogin) {
       setIsLogin(false)
