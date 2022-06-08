@@ -55,7 +55,7 @@ return (
 
 return (
     (isLogin && todoList !== "") ? (<div id="content">
-        <h1>用 React 搭配 Firebase 製作的 TodoList (有使用typescript)</h1>
+        <h1 className='title'>用 React 搭配 Firebase 製作的 TodoList (有使用typescript)</h1>
         <div className='input_area'>
             <textarea ref={inputContent} placeholder={"請輸入待辦內容，上限為100字"} maxLength={100} onKeyDown={(e)=>{if(e.key === "Enter"){e.preventDefault();writeData(inputContent.current, isLogin, setTodoList)}}}></textarea>
             <div className='btn' onClick={() => {

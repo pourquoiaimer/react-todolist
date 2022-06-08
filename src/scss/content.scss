@@ -13,7 +13,10 @@ $my_blue: rgb(34, 69, 184);
   border: 3px solid rgb(78, 78, 78);
   border-radius: 5px;
 }
-
+.title {
+  font-size: 30px;
+  font-weight: bold;
+}
 .input_area {
   margin: 30px;
   height: 60px;
