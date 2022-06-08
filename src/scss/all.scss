@@ -1,0 +1,30 @@
+html{
+  height: 100%;
+  width: 100%;
+}
+body{
+    height: 100%;
+    width: 100%;
+  }
+#root {
+  height: 100%;
+  width: 100%;
+}
+#App {
+  min-height: 100%;
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+  background-color: rgb(196, 238, 194);
+}
+*{
+    box-sizing: border-box
+}
+
+
+@import "header.scss";
+@import "content.scss";
+@import "footer.scss";
+

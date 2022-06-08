@@ -1,0 +1,101 @@
+$my_blue: rgb(34, 69, 184);
+
+#content {
+  height: auto;
+  font-size: 20px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(218, 218, 218);
+  width: 80%;
+  margin: auto;
+  border: 3px solid rgb(78, 78, 78);
+  border-radius: 5px;
+}
+
+.input_area {
+  margin: 30px;
+  height: 60px;
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  textarea {
+    resize: none;
+    width: 90%;
+    height: 100%;
+    padding: 0;
+    font-size: 30px;
+    line-height: 47.5px;
+    vertical-align: middle;
+    padding: 5px 20px;
+  }
+  .btn {
+    background-color: $my_blue;
+    color: white;
+    width: 15%;
+    height: 100%;
+    border: 3px solid $my_blue;
+    border-radius: 10px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 30px;
+    letter-spacing: 5px;
+    cursor: pointer;
+    &:hover {
+      background-color: white;
+      color: $my_blue;
+    }
+  }
+}
+.show_area {
+  margin: 30px;
+  height: 50%;
+  width: 90%;
+  text-align: center;
+  th,
+  td {
+    border: 1px solid rgb(189, 122, 122);
+    height: 60px;
+  }
+  table {
+    //   border: 1px solid rgb(248, 192, 192);
+    width: 100%;
+    border-collapse: collapse;
+    background-color: antiquewhite;
+    th {
+      font-size: 25px;
+      font-weight: bold;
+      background-color: rgb(209, 187, 158);
+    }
+    .over {
+      color: rgb(77, 116, 243);
+    }
+    td {
+      font-size: 25px;
+    }
+    .stateCheck {
+      margin: 0 10px 0 0;
+      height: 20px;
+      width: 20px;
+    }
+    .todo_state {
+      width: 15%;
+    }
+    .todo_content {
+      width: 65%;
+    }
+    .todo_date {
+      width: 15%;
+    }
+    .todo_delete {
+      width: 5%;
+    }
+    .delete_btn {
+      color: red;
+      font-weight: bold;
+      cursor: pointer;
+    }
+  }
+}

@@ -1,0 +1,22 @@
+#header {
+  background-color: black;
+  color: white;
+  text-align: center;
+  height: 80px;
+  font-size: 30px;
+  display: flex;
+}
+.login_info {
+  display: flex;
+  align-items: center;
+  .login_out {
+    width: 200px;
+    height: 40px;
+    margin: 0 20px;
+    font-size: 25px;
+  }
+
+}
+.admin_info{
+    width: 200px;
+}
